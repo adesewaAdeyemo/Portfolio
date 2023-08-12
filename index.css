@@ -29,7 +29,7 @@ border-radius: 10px;
 box-shadow: 0 2px 20px rgba(0, 0, 0, 0.26);
 }
 .gradient-text {
-    background: linear-gradient(to top, #222325, #959697);
+    background: linear-gradient(to top, #000, #a4bfda);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
