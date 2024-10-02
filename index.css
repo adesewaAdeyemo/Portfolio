@@ -10,9 +10,9 @@ body {
     align-items: center;
     min-height: 100vh;
     background-repeat: no-repeat;
-    /* background: url("bg_dotted.png"), #efefefef; */
-    background: url("bg_dotted.png"), #eef0f3;
-    background-blend-mode: multiply;
+    background: url("bg_dotted.png"), #efefefef;
+    /* background: url("bg_dotted.png"), #eef0f3; */
+    /* background-blend-mode: multiply; */
     font-family: 'Inter', sans-serif;
 }
 a{
