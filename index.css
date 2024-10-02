@@ -92,3 +92,16 @@ box-shadow: 0 2px 5px rgba(118, 136, 154, 0.16);
     animation: fadeIn 1.5s ease-out forwards;
     animation-delay: 0.5s; /* Delays the paragraph animation */
   }
+
+  @media screen and (max-width: 768px) {
+    .card {
+      max-width: 90%;
+    }
+  .gradient-text{
+    font-size: 2.5rem;
+  }
+  .lead{
+    font-size: 0.9rem;  
+  }
+
+  }
