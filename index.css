@@ -68,6 +68,7 @@ box-shadow: 0 2px 5px rgba(118, 136, 154, 0.16);
 .footer{
   font-size: 0.7rem;
   text-align: right;
+  margin-right: 15px;
 }
  @keyframes slideIn {
     0% {
