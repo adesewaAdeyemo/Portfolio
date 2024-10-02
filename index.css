@@ -14,7 +14,7 @@ body {
     font-family: 'Inter', sans-serif;
 }
 a{
-  color: #645d5d;
+  color: #60666e;
   text-decoration: none;
 }
 a:hover{
@@ -26,10 +26,69 @@ margin: auto;
 /* max-width: 40rem; */
 border: transparent;
 border-radius: 10px;
-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.26);
+box-shadow: 0 2px 5px rgba(118, 136, 154, 0.16);
 }
 .gradient-text {
-    background: linear-gradient(to top, #000, #a4bfda);
+    background: linear-gradient(to top, #000, #46a1fd);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 3.8rem;
+  }
+
+.row{
+  align-items: stretch !important;
 }
+.card-text{
+  text-align: center;
+}
+.card-text p{
+  font-size: 1rem;
+}
+.card-text h2{
+  font-size: 1.5rem;
+}
+
+.card:hover{
+  box-shadow: 0 4px 40px rgba(128, 137, 141, 0.16);
+}
+.lead{
+  margin-top: -10px;
+  text-decoration: wavy;
+}
+.text-right{
+  /* text-align: right; */
+}
+.handle{
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #04315e;
+}
+
+ @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .animate-heading {
+    animation: slideIn 1s ease-out forwards;
+  }
+
+  .animate-paragraph {
+    animation: fadeIn 1.5s ease-out forwards;
+    animation-delay: 0.5s; /* Delays the paragraph animation */
+  }
