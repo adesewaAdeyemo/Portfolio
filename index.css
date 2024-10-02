@@ -10,7 +10,9 @@ body {
     align-items: center;
     min-height: 100vh;
     background-repeat: no-repeat;
-    background: url("bg_dotted.png"), #efefefef;
+    /* background: url("bg_dotted.png"), #efefefef; */
+    background: url("bg_dotted.png"), #eef0f3;
+    background-blend-mode: multiply;
     font-family: 'Inter', sans-serif;
 }
 a{
@@ -63,7 +65,10 @@ box-shadow: 0 2px 5px rgba(118, 136, 154, 0.16);
   font-weight: 600;
   color: #04315e;
 }
-
+.footer{
+  font-size: 0.7rem;
+  text-align: right;
+}
  @keyframes slideIn {
     0% {
       opacity: 0;
@@ -103,5 +108,8 @@ box-shadow: 0 2px 5px rgba(118, 136, 154, 0.16);
   .lead{
     font-size: 0.9rem;  
   }
+.footer{
+  text-align: center;
+}
 
   }
