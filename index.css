@@ -34,7 +34,7 @@ box-shadow: 0 2px 5px rgba(118, 136, 154, 0.16);
     background: linear-gradient(to top, #000, #46a1fd);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 3.8rem;
+    font-size: 4rem;
   }
 
 .row{
@@ -51,7 +51,7 @@ box-shadow: 0 2px 5px rgba(118, 136, 154, 0.16);
 }
 
 .card:hover{
-  box-shadow: 0 4px 40px rgba(128, 137, 141, 0.16);
+  box-shadow: 0 4px 40px rgba(4, 59, 78, 0.16);
 }
 .lead{
   margin-top: -10px;
