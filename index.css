@@ -37,8 +37,6 @@ box-shadow: 0 2px 5px rgba(118, 136, 154, 0.16);
     font-size: 4rem;
     font-family: "Edu AU VIC WA NT Guides", cursive;
     text-decoration: none;
-    font-weight: 700;
-    line-height: 120px;
 
   }
 
@@ -59,7 +57,7 @@ box-shadow: 0 2px 5px rgba(118, 136, 154, 0.16);
   box-shadow: 0 4px 40px rgba(4, 59, 78, 0.16);
 }
 .lead{
-  margin-top: -35px;
+  margin-top: -10px;
   text-decoration: wavy;
 }
 .text-right{
@@ -104,18 +102,15 @@ box-shadow: 0 2px 5px rgba(118, 136, 154, 0.16);
     animation-delay: 0.5s; /* Delays the paragraph animation */
   }
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 768px) {
     .card {
       max-width: 90%;
     }
   .gradient-text{
-    font-size: 2.1rem;
-        line-height: 70px;
-
+    font-size: 2.5rem;
   }
   .lead{
-    font-size: 0.9rem;
-    margin-top: -30px;
+    font-size: 0.9rem;  
   }
 .footer{
   text-align: center;
